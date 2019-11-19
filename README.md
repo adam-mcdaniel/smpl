@@ -1,6 +1,6 @@
 # smpl
 
-smpl is a superset of (brainfuck)[https://esolangs.org/wiki/Brainfuck] with 3 additional operators for dynamic memory allocation and management. This allows smpl to compilation from much higher level languages, as implementations for patterns like `vector` and `string` are possible.
+smpl is a superset of [brainfuck](https://esolangs.org/wiki/Brainfuck) with 3 additional operators for dynamic memory allocation and management. This allows smpl to compilation from much higher level languages, as implementations for patterns like `vector` and `string` are possible.
 
 # Operators
 
