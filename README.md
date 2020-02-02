@@ -31,7 +31,7 @@ The goal of documenting extreme behavior is to help guarantee that all implement
 
 - When the `&` operator is called before the `*` operator has been called, the pointer jumps to cell `0`
 - When a cell's value is `0` and the `-` operator is called, the cell overflows to the maximum value a 32 bit integer can store.
-- After the `,` operator first returns `EOF`, it will continue to return `EOF` every time it is called until the program ends.
+- After the `,` operator first returns `EOF`, it will continue to return `EOF` every time it is called until the program ends. `EOF` is zero.
 - `?` will replace the `size` parameter of the current cell with the address of free memory with that size. The address stored in the current cell will point to the _*leftmost*_ cell in that block of memory.
 - The `.` operator will convert the value in the cell to a character and print the character. If the number is greater than `255`, the `.` operator will divide by `256` and print the remainder as a character.
 - The `&` operator will only record the previous `256` `*` calls.
